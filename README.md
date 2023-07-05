@@ -32,3 +32,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Environment Setup & featured products (Store)
+
+npx create-next-app ecommerce-store --typescript --tailwind --eslint
+(no src, yes router, no customize)
+
+npm i clsx tailwind-merge lucide-react query-string
+
+(routes)/page.tsx
+get billboardId from admin - billboard - copy id
+const billboard = await getBillboard(<billboardId>);
