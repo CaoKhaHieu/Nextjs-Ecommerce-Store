@@ -10,6 +10,7 @@
     "format": "prettier --loglevel silent --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.15",
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "@types/node": "20.3.3",
     "@types/react": "18.2.14",

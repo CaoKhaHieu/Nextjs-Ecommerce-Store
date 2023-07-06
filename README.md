@@ -43,3 +43,6 @@ npm i clsx tailwind-merge lucide-react query-string
 (routes)/page.tsx
 get billboardId from admin - billboard - copy id
 const billboard = await getBillboard(<billboardId>);
+
+## Individual product screen (Store)
+npm i @headlessui/react
