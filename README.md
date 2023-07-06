@@ -46,3 +46,7 @@ const billboard = await getBillboard(<billboardId>);
 
 ## Individual product screen (Store)
 npm i @headlessui/react
+
+
+## Product preview modal components (Store)
+npm i zustand
