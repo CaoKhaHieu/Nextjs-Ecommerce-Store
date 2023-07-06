@@ -50,3 +50,7 @@ npm i @headlessui/react
 
 ## Product preview modal components (Store)
 npm i zustand
+
+##  Add to Cart functionality (Store)
+npm i react-hot-toast
+npm i axios
